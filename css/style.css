@@ -72,56 +72,248 @@ header {
   padding: 22px 50px;
 }
 /* Top Places to visit */
-/* 
 .topplace {
   width: 1312px;
   height: 1182px;
-  border: 2px solid blue;
-  margin: 140px auto 0px auto;
-  text-align: center;
+  margin: 100px auto 100px auto;
 }
-.top-title {
+.topplace-title {
   color: #041562;
   font-size: 36px;
   font-weight: 600;
   line-height: 43px;
+  text-align: center;
 }
-.top-disc {
-  color: #626262;
+.topplace-disc {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
-  padding-top: 20px;
- 
+  color: #626262;
+  text-align: center;
+  margin-top: 20px;
 }
-.bla {
-  padding: 75px 0px;
-}
-.row-one {
-  width: 1312px;
-  height: 415px;
+
+.one {
+  width: 631px;
+  display: inline-block;
+  vertical-align: middle;
   margin-top: 75px;
-  display: inline-block;
 }
-.row-two {
-  margin-top: 50px;
+.two {
+  width: 631px;
   display: inline-block;
+  vertical-align: middle;
+  margin-top: 75px;
+  margin-left: 45px;
+}
+.three {
+  width: 631px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 50px;
+}
+.four {
+  width: 631px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 50px;
+  margin-left: 45px;
 }
 .discovermore {
+  padding: 22px 62px;
   background-color: #ff5403;
   font-size: 18px;
   font-weight: 600;
-  line-height: 21px;
   color: #fff;
   display: inline-block;
-  padding: 13px 50px;
-  margin: 75px auto 0px auto;
+  /* margin: 75px auto 0px auto; ar mushaobs auto da arc text-align-centr*/
+  margin-top: 75px;
+  margin-left: 532px;
 }
-.one {
-  width: 631px;
-  height: 415px;
+
+/* Top Hotel & Restorants */
+.top {
+  width: 1312px;
+  margin: 100px auto 100px auto;
+}
+
+.top-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  color: #041562;
+  text-align: center;
+}
+.top-desc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #626262;
+  text-align: center;
+  margin-top: 20px;
+}
+.tophotel-cards {
+  margin-top: 75px;
+}
+.topcard-one,
+.topcard-three {
+  margin-top: 75px;
+  width: 404px;
   display: inline-block;
-} */
+}
+.topcard-two {
+  width: 404px;
+  display: inline-block;
+  margin: 0px 43px;
+}
+.hotel-title {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  margin-top: 40px;
+}
+.star {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.review-amount {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 4px;
+  font-weight: 300;
+}
+.location {
+  font-size: 18px;
+  color: #626262;
+  font-weight: 300;
+  margin: 10px 0px;
+  line-height: 170%;
+}
+.price {
+  font-size: 18px;
+  color: #020202;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.price_tag {
+  color: #da1212;
+}
+
+/* FEEDBACK */
+.section_feedback {
+  width: 100%;
+  margin: 100px auto 100px auto;
+  padding: 100px 100px;
+  background-color: #041562;
+}
+.Feedback-line {
+  margin-bottom: 80px;
+}
+.feedback-title {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.previous-icon {
+  margin-left: 897px;
+  vertical-align: middle;
+}
+
+.next-icon {
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.feedback_cardone {
+  display: inline-block;
+  width: 404px;
+  height: 339px;
+  padding: 24px 32px 24px 32px;
+  background-color: #3045a599;
+  border-radius: 2px;
+}
+.feedback_cardtwo {
+  display: inline-block;
+  width: 404px;
+  height: 339px;
+  padding: 24px 32px 24px 32px;
+  background-color: #3045a599;
+  border-radius: 2px;
+  margin: 0px 45px;
+}
+.feedback_cardthree {
+  display: inline-block;
+  width: 404px;
+  height: 339px;
+  padding: 24px 32px 24px 32px;
+  background-color: #3045a599;
+  border-radius: 2px;
+}
+.feedback-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 35px 0px 35px 0px;
+}
+.id-details {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+/* OFFERS */
+.services {
+  width: 1312px;
+  margin: 160px auto 160px auto;
+}
+.offers-title {
+  color: #041562;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+}
+.offer-desc {
+  color: #626262;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 20px;
+}
+.services-cardone {
+  display: inline-block;
+  width: 404px;
+  margin-top: 70px;
+}
+.services-cardthree {
+  display: inline-block;
+  width: 404px;
+}
+.services-cardtwo {
+  display: inline-block;
+  width: 404px;
+  margin: 0px 45px;
+}
+.services-title {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  margin-top: 40px;
+}
+.services-desc {
+  color: #626262;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 10px;
+}
 
 footer {
   width: 100%;
@@ -192,69 +384,4 @@ footer {
 }
 .fb {
   margin: 0px 15px;
-}
-
-/* whaat theysaid */
-.section_feedback {
-  width: 100%;
-  background-color: #041562;
-  padding: 100px 100px;
-}
-.Feedback-line {
-  margin-bottom: 80px;
-}
-.feedback-title {
-  color: #ffffff;
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 43px;
-  display: inline-block;
-  vertical-align: middle;
-}
-.previous-icon {
-  margin-left: 897px;
-  vertical-align: middle;
-}
-
-.next-icon {
-  margin-left: 20px;
-  vertical-align: middle;
-}
-.feedback_cardone {
-  display: inline-block;
-  width: 404px;
-  height: 339px;
-  padding: 24px 32px 24px 32px;
-  background-color: #3045a599;
-  border-radius: 2px;
-}
-.feedback_cardtwo {
-  display: inline-block;
-  width: 404px;
-  height: 339px;
-  padding: 24px 32px 24px 32px;
-  background-color: #3045a599;
-  border-radius: 2px;
-  margin: 0px 45px;
-}
-.feedback_cardthree {
-  display: inline-block;
-  width: 404px;
-  height: 339px;
-  padding: 24px 32px 24px 32px;
-  background-color: #3045a599;
-  border-radius: 2px;
-}
-.feedback-text {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  margin: 35px 0px 35px 0px;
-}
-.id-details {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
 }
